@@ -18,14 +18,6 @@ $(document).ready(function(){
     });*/
     
     $("button").click(function() {
-       $.post("demo_test.asp", 
-             {
-           name: "Prashanth Reddy",
-           wifeName: "Priyanka Diddi",
-           city: "Hyderabad"
-       },
-              function(data, status) {
-           alert("Data: " + data + "\nStatus " + status);
-       }); 
+       $.get(".div1").load("ajax.txt");
     });
 });

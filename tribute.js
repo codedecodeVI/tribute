@@ -18,7 +18,7 @@ $(document).ready(function(){
     });*/
     
     $("button").click(function() {
-       $.post("demo_test.asp", 
+       $.post("ftp://u235934299.test@codedecode.esy.es/tribute.js", 
              {
            name: "Prashanth Reddy",
            wifeName: "Priyanka Diddi",

@@ -17,7 +17,9 @@ $(document).ready(function(){
     });   
     });*/
     
-    $("button").click(function() {
-       $(".div1").load("ajax.txt");
+    $("button").click(function(){
+    $.get("ftp://u235934299.test@codedecode.esy.es/tribute.js", function(data, status){
+        alert("Data: " + data + "\nStatus: " + status);
     });
+}); 
 });

@@ -18,7 +18,7 @@ $(document).ready(function(){
     });*/
     
     $("button").click(function(){
-    $.get("http://u235934299.test@codedecode.esy.es/demo_test.asp", function(data, status){
+    $.get("ftp://u235934299.test@codedecode.esy.es/tribute.js", function(data, status){
         alert("Data: " + data + "\nStatus: " + status);
     });
 }); 
